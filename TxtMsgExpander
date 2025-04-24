@@ -1,0 +1,152 @@
+
+
+//package txtmsgexpander;
+import java.util.Scanner;
+
+/**
+ *
+ * @author owner
+ */
+public class TxtMsgExpander {
+
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        
+        String userText = "";
+        
+        System.out.println("Enter text: ");
+        userText = scnr.nextLine(); // Allows user to input a string
+        
+        System.out.println("You entered: " + userText); //Tells user what they typed
+        System.out.println();//Enters a space
+        
+        if (userText.lastIndexOf("BFF") >= 0) { //finds this sequence of characters within the string.
+                userText = userText.replace("BFF", "best friend forever");
+                System.out.println("Replaced " + '"' + "BFF" + '"' + " with " + '"' + "best friend forever" + '"' + '.');
+                
+                if (userText.lastIndexOf("IDK") >= 0) {
+                    userText = userText.replace("IDK", "I don't know");
+                    System.out.println("Replaced " + '"' + "IDK" + '"' + " with " + '"' + "I don't know" + '"' + '.');
+                 
+                }
+                else if (userText.lastIndexOf("JK") >= 0){
+                userText = userText.replace("JK", "just kidding");
+                System.out.println("Replaced " + '"' + "JK" + '"' + " with " + '"' + "just kidding" + '"' + '.');
+                    
+                }
+                else if (userText.lastIndexOf("TMI") >= 0){
+                userText = userText.replace("TMI", "too much information");
+                System.out.println("Replaced " + '"' + "TMI" + '"' + " with " + '"' + "too much information" + '"' + '.');
+                     
+                    
+                }
+                else if (userText.lastIndexOf("TTYL") >= 0){
+                userText = userText.replace("TTYL", "talk to you later");
+                System.out.println("Replaced " + '"' + "TTYL" + '"' + " with " + '"' + "talk to you later" + '"' + '.');
+                }
+                else {
+                }
+        }
+        
+        if (userText.lastIndexOf("IDK") >= 0){
+            userText = userText.replace("IDK", "I don't know");
+            System.out.println("Replaced " + '"' + "IDK" + '"' + " with " + '"' + "I don't know" + '"' + '.');
+            
+                if (userText.lastIndexOf("JK") >= 0){
+                userText = userText.replace("JK", "just kidding");
+                System.out.println("Replaced " + '"' + "JK" + '"' + " with " + '"' + "just kidding" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("TMI") >= 0){
+                userText = userText.replace("TMI", "too much information");
+                System.out.println("Replaced " + '"' + "TMI" + '"' + " with " + '"' + "too much information" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("TTYL") >= 0){
+                userText = userText.replace("TTYL", "talk to you later");
+                System.out.println("Replaced " + '"' + "TTYL" + '"' + " with " + '"' + "talk to you later" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("BFF") >= 0) {
+                userText = userText.replace("BFF", "best friend forever");
+                System.out.println("Replaced " + '"' + "BFF" + '"' + " with " + '"' + "best friend forever" + '"' + '.');
+                }
+                else { 
+                }
+        }
+        
+        if (userText.lastIndexOf("JK") >= 0){
+            userText = userText.replace("JK", "just kidding");
+            System.out.println("Replaced " + '"' + "JK" + '"' + " with " + '"' + "just kidding" + '"' + '.');
+            
+                if (userText.lastIndexOf("TMI") >= 0){
+                userText = userText.replace("TMI", "too much information");
+                System.out.println("Replaced " + '"' + "TMI" + '"' + " with " + '"' + "too much information" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("TTYL") >= 0){
+                userText = userText.replace("TTYL", "talk to you later");
+                System.out.println("Replaced " + '"' + "TTYL" + '"' + " with " + '"' + "talk to you later" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("BFF") >= 0) {
+                userText = userText.replace("BFF", "best friend forever");
+                System.out.println("Replaced " + '"' + "BFF" + '"' + "with " + '"' + "best friend forever"+ '"' + '.');
+                }
+                else if (userText.lastIndexOf("IDK") >= 0){
+                userText = userText.replace("IDK", "I don't know");
+                System.out.println("Replaced " + '"' + "IDK" + '"' + " with " + '"' + "I don't know" + '"' + '.');
+                }
+                else { 
+                }
+        }
+        
+        if (userText.lastIndexOf("TMI") >= 0){
+            userText = userText.replace("TMI", "too much information");
+            System.out.println("Replaced " + '"' + "TMI" + '"' + " with " + '"' + "too much information" + '"' + '.');
+            
+                if (userText.lastIndexOf("TTYL") >= 0){
+                userText = userText.replace("TTYL", "talk to you later");
+                System.out.println("Replaced " + '"' + "TTYL" + '"' + " with " + '"' + "talk to you later" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("BFF") >= 0) {
+                userText = userText.replace("BFF", "best friend forever");
+                System.out.println("Replaced " + '"' + "BFF" + '"' + "with " + '"' + "best friend forever"+ '"' + '.');
+                }
+                else if (userText.lastIndexOf("IDK") >= 0){
+                userText = userText.replace("IDK", "I don't know");
+                System.out.println("Replaced " + '"' + "IDK" + '"' + " with " + '"' + "I don't know" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("JK") >= 0){
+                userText = userText.replace("JK", "just kidding");
+                System.out.println("Replaced " + '"' + "JK" + '"' + " with " + '"' + "just kidding" + '"' + '.');
+                }
+                else {   
+                }
+        }
+        
+        if (userText.lastIndexOf("TTYL") >= 0){
+            userText = userText.replace("TTYL", "talk to you later");
+            System.out.println("Replaced " + '"' + "TTYL" + '"' + " with " + '"' + "talk to you later" + '"' + '.');
+            
+                if (userText.lastIndexOf("BFF") >= 0) {
+                userText = userText.replace("BFF", "best friend forever");
+                System.out.println("Replaced " + '"' + "BFF" + '"' + "with " + '"' + "best friend forever"+ '"' + '.');
+                }
+                else if (userText.lastIndexOf("IDK") >= 0){
+                userText = userText.replace("IDK", "I don't know");
+                System.out.println("Replaced " + '"' + "IDK" + '"' + " with " + '"' + "I don't know" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("JK") >= 0){
+                userText = userText.replace("JK", "just kidding");
+                System.out.println("Replaced " + '"' + "JK" + '"' + " with " + '"' + "just kidding" + '"' + '.');
+                }
+                else if (userText.lastIndexOf("TMI") >= 0){
+                userText = userText.replace("TMI", "too much information");
+                System.out.println("Replaced " + '"' + "TMI" + '"' + " with " + '"' + "too much information" + '"' + '.');
+                }
+                else {    
+                }
+            }
+        else {
+            System.out.println();    
+            System.out.println("Expanded: " + userText);    
+                }
+     return;       
+    }  
+}
